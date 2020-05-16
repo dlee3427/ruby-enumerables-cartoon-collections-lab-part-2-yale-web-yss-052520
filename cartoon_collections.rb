@@ -25,7 +25,6 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.each do |element| 
     if element.size > 4 
       return true 
-    end 
 end
 
 def find_valid_calls(planeteer_calls)

@@ -13,7 +13,10 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   new_array = []
   array.each do |element|
-    p "element.capitalize"
+    final = element.capitalize + "!"
+    new_array << final
+  end 
+  new_array
 end
 
 def long_planeteer_calls(planeteer_calls)
